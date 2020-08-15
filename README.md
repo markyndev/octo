@@ -34,3 +34,8 @@ Magnets Links!
 * IsWeb = Seu repositorio pode ser retirado de um site? (1 = yes / 0 = no)
 * weblink = Se IsWeb for 1 coloque um link raw, se for 0 coloque "Opcional"
 * txt = O texto do seu repositorio, use "\n" para pular de linha.
+
+### Criar um repositorio usando IsWeb 
+
+Hospede um arquivo txt ou apenas um texto em sites de pastecloud, como pastebin, hastebin, freethinking e etc, selecione o link RAW onde há apenas o texto e adicione ao seu repositório!
+obs. Não se esqueça de substituir o IsWeb no .json para 1
