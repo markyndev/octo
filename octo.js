@@ -1,15 +1,10 @@
-
+// O SCRIPT POR ENQUANTO ESTA APENAS COM A PARTE DE VISUALIZAÇÃO FUNCIONAL!
 const low = require("lowdb");
-const readline = require('readline');
 var fs = require('fs');
 const FileSync = require("lowdb/adapters/FileSync");
 const adapter = new FileSync("list.json");
 var request = require("request");
 const db = low(adapter);
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
 var myArgs = process.argv.slice(2);
 
 switch (myArgs[0]) {
@@ -31,10 +26,12 @@ request({
 }
     break;
 case '-up':
+//EM DESENVOLVIMENTO!
     console.log(myArgs[1], 'Update Mode');
     break;
 case '-i':
     console.log(myArgs[1], 'Info Mode');
+// EM DESENVOLVIMENTO!
     break;
 
 default:
