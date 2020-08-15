@@ -1,5 +1,4 @@
-const express = require('express');
-const app = express()
+
 const low = require("lowdb");
 const readline = require('readline');
 var fs = require('fs');
